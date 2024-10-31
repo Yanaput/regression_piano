@@ -1,0 +1,26 @@
+# Ignore everything
+*
+
+# But allow everything in subdirectories (overrides the global ignore)
+!*/
+
+# Ignore all files in all directories
+!*.*
+
+# Specific file types to ignore
+*.hdf5
+*.pyc
+*.pth
+*.log
+
+# Python cache directories and files
+__pycache__/
+
+# IDE and virtual environment files
+*.idea/
+*.venv/
+
+# Common deep learning directories
+**/datasets/
+**/workspaces/
+*.pth
