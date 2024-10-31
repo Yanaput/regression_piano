@@ -12,6 +12,7 @@
 *.pyc
 *.pth
 *.log
+*.pkl
 
 # Python cache directories and files
 __pycache__/
